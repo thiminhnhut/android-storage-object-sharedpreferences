@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        storageListUser = StorageListUser.newInstace(applicationContext)
+        storageListUser = StorageListUser.newInstance(applicationContext)
 
         if (savedInstanceState == null) {
             screenAddUser()

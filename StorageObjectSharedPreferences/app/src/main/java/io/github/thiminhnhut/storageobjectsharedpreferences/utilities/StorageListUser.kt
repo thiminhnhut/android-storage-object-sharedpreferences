@@ -12,7 +12,7 @@ class StorageListUser {
         private const val sharedPreferencesFile = "sharePref"
         private const val keyListUser = "listUser"
         private lateinit var mPrefs: SharedPreferences
-        fun newInstace(context: Context) : StorageListUser {
+        fun newInstance(context: Context) : StorageListUser {
             mPrefs = context.getSharedPreferences(sharedPreferencesFile, Context.MODE_PRIVATE)
             return StorageListUser()
         }
