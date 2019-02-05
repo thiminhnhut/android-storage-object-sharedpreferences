@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:text="ID"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:id="@+id/textView"
+                android:layout_weight="0.5"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:text="1"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/txtID"
+                android:layout_weight="2.5"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Name"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:layout_height="30dp"
+                android:id="@+id/textView2"
+                android:layout_weight="0.5"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:text="Nguyen Van A"
+                android:gravity="center"
+                android:id="@+id/txtName"
+                android:layout_weight="2.5"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Email"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:id="@+id/textView3"
+                android:layout_weight="0.5"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:text="abc@gmail.com"
+                android:gravity="center"
+                android:ems="10"
+                android:id="@+id/txtEmail"
+                android:layout_weight="2.5"/>
+    </LinearLayout>
+</LinearLayout>
